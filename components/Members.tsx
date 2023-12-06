@@ -5,7 +5,7 @@ const Members = () => {
   return (
     <div id='Members' className='mx-5'>
       <div>
-        <h1 className="text-5xl my-10 font-bold text-red-500 py-3">ListMembers</h1>
+        <h1 className="text-5xl my-10 font-bold text-red-500 py-3">Members</h1>
         <div className="grid  grid-cols-4 max-md:grid-cols-2 max-sm:grid-cols-1  ">
           {MembersList.map((items) => (
 
